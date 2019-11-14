@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Homepage</title>
+    <link>https://speedinghzl.github.io/home/</link>
+    <description>Recent content in Homes on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://speedinghzl.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://speedinghzl.github.io/home/about/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://speedinghzl.github.io/home/about/</guid>
+      <description>Biography Zilong Huang is a PhD student in the School of Electronic Information and Communications in Huazhong University of Science and Technology (HUST), advised by Wenyu Liu and Xinggang Wang. His research interests include semantic segmentation, object detection and weakly supervised learning.
+He is currently a visiting PhD student in the IFP group of the University of Illinois at Urbana-Champaign, advised by Prof. Thomas S. Huang.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://speedinghzl.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://speedinghzl.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Work Experiences</title>
+      <link>https://speedinghzl.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://speedinghzl.github.io/home/teaching/</guid>
+      <description>Horizon Robotics, Beijing, China (Mar, 2018 - Sep, 2018)
+Position: Research Intern (Algorithm Platform)
+Mentor: Lichao Huang
+Microsoft Research Asia (MSRA), Beijing, China (Mar, 2016 - Oct, 2016)
+Position: Research Intern (Internet Media group)
+Mentor: Jingdong Wang, Chunyu Wang</description>
+    </item>
+    
+  </channel>
+</rss>
