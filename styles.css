@@ -483,7 +483,7 @@ a[data-fancybox] img {
 }
 
 #profile .portrait-title h3 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 300;
     color: rgba(0, 0, 0, 0.54);
     margin: 0px 0 10px 0;
@@ -514,11 +514,15 @@ a[data-fancybox] img {
     font-size: 2rem;
 }
 
-ul.ul-interests li {
+ul.ul-interests li,
+ul.ul-reviewers li {
     font-size: 0.9rem;
 }
 
-ul.ul-edu {
+ul.ul-edu,
+ul.ul-reviewers,
+ul.ul-interests,
+.no-bullet-point {
     list-style: none;
 }
 
@@ -589,7 +593,8 @@ ul.share li:hover .fa {
     transform: scale(1.4);
 }
 
-.ul-News {
+.ul-News,
+.ul-Note {
     line-height: 200%;
 }
 
@@ -1579,11 +1584,7 @@ body.dark {
 
 .newNews {
     font-weight: normal;
-    font-size: 13pt;
-}
-
-.no-bullet-point {
-    list-style: none;
+    font-size: 15pt;
 }
 
 .small-font {
@@ -1592,4 +1593,8 @@ body.dark {
 
 .text-align-justify {
     text-align: justify;
+}
+
+.display-inline-block {
+    display: inline-block;
 }
