@@ -31,6 +31,7 @@
     <link rel="icon" type="image/png" href="/img/icon.png">
     <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
     <link rel="canonical" href="https://swalpa.github.io/">
+    
     <meta property="twitter:card" content="summary_large_image">
     <meta property="og:site_name" content="Swalpa Kumar Roy">
     <meta property="og:url" content="https://swalpa.github.io/">
@@ -244,14 +245,19 @@
     </section>
     <section id="News" class="home-section">
       <div class="container">
+                    <h1><span class="text-success">Note</span>
+				<sup>
+                <img style="display:inline" src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" />
+			  </sup>
+			</h1>
 		<div class="row">
-          <div class="col-xs-12 col-md-2 section-heading">
+          <!-- <div class="col-xs-12 col-md-2 section-heading">
             <h1><span class="text-success">Note</span>
 				<sup>
                 <img style="display:inline" src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" />
 			  </sup>
 			</h1>
-          </div>
+          </div> -->
           <div class="col-xs-12 col-md-10">
             <ul class="ul-Note no-bullet-point">
 				<li>
@@ -264,11 +270,12 @@
             </ul>
           </div>
         </div>
-		<hr>
+    <hr>
+                <h1>News</h1>
         <div class="row">
-          <div class="col-xs-12 col-md-2 section-heading">
+          <!-- <div class="col-xs-12 col-md-2 section-heading">
             <h1>News</h1>
-          </div>
+          </div> -->
           <div class="col-xs-12 col-md-10">
             <ul class="ul-News">
 	      <li>
@@ -329,7 +336,7 @@
           <div class="col-12 col-lg-4 section-heading">
             <h1>Contact</h1>
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-4 " style="margin-top: 30px;">
             <ul class="no-bullet-point">
               <li><i class="fa fa-phone"> (+91)-9749322213</i></li>
               <li><i class="fa fa-envelope"> swalpa(at)cse.jgec.ac.in</i></li>
@@ -349,16 +356,19 @@
       <div class="row">
         <footer class="site-footer">
           <p class="powered-by">
-            &copy; 2019 &middot;
-            Powered by the
-            <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-            <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-            <span class="pull-right" aria-hidden="true">
-              <a href="#" id="back_to_top">
-                <span class="button_icon">
-                  <i class="fa fa-chevron-up fa-2x"></i>
-                </span>
-              </a>
+            <span id="date"></span>
+            &copy;
+            <script>
+var n = new Date();
+var y = n.getFullYear();
+document.getElementById("date").innerHTML =  y;
+            </script>
+             &middot;
+            Created by 
+            <a href="https://www.linkedin.com/in/swalpa-kumar-roy-9b51234a/">
+            Swalpa Kumar Roy
+            </a>
+
             </span>
           </p>
         </footer>
