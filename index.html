@@ -13,8 +13,8 @@
     <meta name="theme-color" content="#0095eb">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw=="
-      crossorigin="anonymous">
+    integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw=="
+    crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css"
       integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A=="
       crossorigin="anonymous">
@@ -63,8 +63,8 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="/#News" data-target="#News">
-                <span>News</span>
+              <a href="/#Updates" data-target="#Updates">
+                <span>Updates</span>
               </a>
             </li>
             <li class="nav-item">
@@ -75,6 +75,16 @@
             <li class="nav-item">
               <a href="/teaching/index.html" data-target="#teaching">
                 <span>Teaching</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/projects/index.html" data-target="#projects">
+                <span>Projects</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/awards/index.html" data-target="#awards">
+                <span>Awards&nbsp; & &nbsp;Achievements</span>
               </a>
             </li>
             <li class="nav-item">
@@ -93,93 +103,141 @@
     </nav>
     <section id="about" class="home-section">
       <div class="container">
-        <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
+        <div class="row"  itemprop="author" itemscope itemtype="http://schema.org/Person"
           itemref="person-email person-telephone person-address">
-          <div class="col-xs-12 col-md-4">
-            <div id="profile">
+          <div class="w-100">
+            <div id="profile" >
               <div class="portrait" style="background-image: url('https://swalpa.github.io/img/Swalpa.jpg');">
               </div>
               <meta itemprop="image" content="https://swalpa.github.io/img/Swalpa.jpg">
-              <div class="portrait-title">
-                <h2 itemprop="name">Swalpa Kumar Roy, Ph.D.</h2> 
-                <h3 itemprop="jobTitle">Assistant Professor, W.B.G.S</h3>
-                <h3 itemprop="jobTitle">Computer Science and Engineering</h3>
-                <h3 itemprop="worksFor">Jalpaiguri Govt. Engineering College</h3>
+              <div class="profile-info">
+                <!-- style="display: flex;justify-content: space-between; align-items: flex-start;" -->
+                <div>
+                  <div class="portrait-title">
+                    <h2 itemprop="name"> Dr. Swalpa Kumar Roy, Ph.D.</h2> 
+                    <h3 itemprop="jobTitle">Assistant Professor, W.B.G.S</h3>
+                    <h3 itemprop="jobTitle">Computer Science and Engineering</h3>
+                    <h3 itemprop="worksFor"><a href="https://jgec.ac.in/" target="_blank">Jalpaiguri Govt. Engineering College</a></h3>
+                  </div>
+                  
+                  <ul class="network-icon" aria-hidden="true">
+                    <li>
+                      <a itemprop="sameAs" href="mailto:swalpa@cse.jgec.ac.in" target="_blank" rel="noopener">
+                        <i class="fa fa-envelope-open big-icon" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <!-- <li>
+                      <a itemprop="sameAs" href="https://scholar.google.com/citations?user=1WVrFGwAAAAJ&amp;hl=en"
+                        target="_blank" rel="noopener">
+                        
+                        <i class="ai ai-google-scholar big-icon" aria-hidden="true"></i>
+                      </a>
+                    </li> -->
+                    <!-- <li>
+                      <a itemprop="sameAs" href="https://dblp.org/pers/hd/r/Roy:Swalpa_Kumar" target="_blank"
+                        rel="noopener">
+                        <img src="https://swalpa.github.io/img/table3.png" height="35" width="35">
+                      </a>
+                    </li> -->
+                    <!-- <li>
+                      <a itemprop="sameAs" href="https://www.researchgate.net/profile/Swalpa_Roy" target="_blank"
+                        rel="noopener">
+                        <img src="https://swalpa.github.io/img/table4.jpg" height="35" width="35">
+                      </a>
+                    </li> -->
+                    <li>
+                      <a itemprop="sameAs" href="https://jgec.ac.in/#/departments/614ddda8b7b85642bf4277b2" target="_blank" rel="noopener">
+                        <img src="https://swalpa.github.io/img/table6.jpg" height="35" width="35">
+                      </a>
+                    </li>
+                    <li>
+                      <a itemprop="sameAs" href="https://www.linkedin.com/in/swalpa-kumar-roy-9b51234a/" target="_blank" rel="noopener">
+                        <i class="fa fa-linkedin big-icon" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a itemprop="sameAs" href="https://github.com/swalpa" target="_blank" rel="noopener">
+                        <i class="fa fa-github big-icon" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a itemprop="sameAs" href="https://www.facebook.com/swalparoy" target="_blank" rel="noopener">
+                        <i class="fa fa-facebook big-icon" aria-hidden="true" ></i>
+                      </a>
+                    </li>
+                    <!-- <li>
+                      <a itemprop="sameAs" href="https://publons.com/researcher/3865856/swalpa-kumar-roy/" target="_blank" rel="noopener">
+                        <img src="https://swalpa.github.io/img/table7.png" height="35" width="35">
+                      </a>
+                    </li> -->
+                  </ul>
+                </div>
+                <div class="research-profiles">
+                  <button class="btn"><a itemprop="sameAs" href="https://scholar.google.com/citations?user=1WVrFGwAAAAJ&amp;hl=en" rel="noopener" target="_blank" >Google Scholar</a></button>
+                  <button class="btn"><a itemprop="sameAs" href="https://dblp.org/pers/hd/r/Roy:Swalpa_Kumar" rel="noopener" target="_blank">DBLP</a></button>
+                  <button class="btn"><a itemprop="sameAs" href="https://www.researchgate.net/profile/Swalpa_Roy" rel="noopener" target="_blank">ResearchGate</a></button>
+                  <button class="btn"><a itemprop="sameAs" href="https://loop.frontiersin.org/people/2122815/overview" rel="noopener" target="_blank">Loop</a></button>
+                  <button class="btn"><a itemprop="sameAs" href="https://www.webofscience.com/wos/author/record/2068252" rel="noopener" target="_blank">Web of Science</a></button>
+                  <button class="btn"><a itemprop="sameAs" href="https://www.scopus.com/authid/detail.uri?authorId=56784776500" rel="noopener" target="_blank">Scopus</a></button>
+
+                </div>
               </div>
-              
-              <ul class="network-icon" aria-hidden="true">
-                <li>
-                  <a itemprop="sameAs" href="mailto:swalpa@cse.jgec.ac.in" target="_blank" rel="noopener">
-                    <i class="fa fa-envelope-open big-icon" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a itemprop="sameAs" href="https://scholar.google.com/citations?user=1WVrFGwAAAAJ&amp;hl=en"
-                    target="_blank" rel="noopener">
-                    
-                    <i class="ai ai-google-scholar big-icon" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a itemprop="sameAs" href="https://dblp.org/pers/hd/r/Roy:Swalpa_Kumar" target="_blank"
-                    rel="noopener">
-                    <img src="https://swalpa.github.io/img/table3.png" height="35" width="35">
-                  </a>
-                </li>
-                <li>
-                  <a itemprop="sameAs" href="https://www.researchgate.net/profile/Swalpa_Roy" target="_blank"
-                    rel="noopener">
-                    <img src="https://swalpa.github.io/img/table4.jpg" height="35" width="35">
-                  </a>
-                </li>
-                <li>
-                  <a itemprop="sameAs" href="https://jgec.ac.in/#/departments/614ddda8b7b85642bf4277b2" target="_blank" rel="noopener">
-                    <img src="https://swalpa.github.io/img/table6.jpg" height="35" width="35">
-                  </a>
-                </li>
-                <li>
-                  <a itemprop="sameAs" href="https://www.linkedin.com/in/swalpa-kumar-roy-9b51234a/" target="_blank" rel="noopener">
-                    <i class="fa fa-linkedin big-icon" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <!-- <li>
-                  <a itemprop="sameAs" href="https://github.com/swalpa" target="_blank" rel="noopener">
-                    <i class="fa fa-github big-icon" aria-hidden="true"></i>
-                  </a>
-                </li> -->
-                <li>
-                  <a itemprop="sameAs" href="https://publons.com/researcher/3865856/swalpa-kumar-roy/" target="_blank" rel="noopener">
-                    <img src="https://swalpa.github.io/img/table7.png" height="35" width="35">
-                  </a>
-                </li>
-              </ul>
+
             </div>
           </div>
-          <div class="col-xs-12 col-md-8 text-align-justify small-font" itemprop="description">
-            <h1 id="biography">Biography</h1>
-            <p>
-               Swalpa Kumar Roy, (Bangla: স্বল্প কুমার রায়।) has been with the <a href="http://jgec.ac.in/" target="_blank">Jalpaiguri Government Engineering College, Jalpaiguri</a>, the 5<sup>th</sup> oldest technical institution and one of the most prestigious
-                academic institution in West Bengal where he is associated with the <a href="http://jgec.ac.in/" target="_blank">Department of Computer Science and Engineering</a> and holds the position of assistant professor from March 2018 onward.
-                <br>Swalpa Kumar Roy is also working with <a href="http://www.isical.ac.in/~chanda" target="_blank">Prof. Bhabatosh Chanda</a>, Fellow, IAPR and <a href="http://www.isical.ac.in/~bbc" target="_blank">Prof. Bidyut Baran Chaudhuri</a>,
-                Fellow, IEEE, <a href="http://www.isical.ac.in/~cvpr" target="_blank">Computer Vision and Pattern Recognition (CVPR) Unit</a> at Indian Statistical Institute, Kolkata during his Ph.D. research. He is also working under <a href="https://www3.iiserkol.ac.in/people/faculty				/dps/soumitro">Prof. Soumitro Banerjee</a>, Fellow, IEEE, at <a href="http://www.iiserkol.ac.in/" target="_blank">Indian Institute of 		      Science Education and Research, Kolkata</a>.<br>Before joining CVPR Unit, ISI Kolkata, he received his B. Tech (Computer Science &amp; 			Engineering) degree from <a href="http://www.wbut.ac.in/" target="_blank">West Bengal University of Technology, Kolkata</a>, and 
-		M. E (Computer Science &amp; Engineering) degree from the <a href="http://www.iiests.ac.in/" target="_blank">Indian Institute of Engineering Science and Technology, Shibpur</a>. He also worked as a Project-Linked-Person (PLP) at the OCR Lab, CVPR Unit,
-              Indian Statistical Institute, Kolkata.
-	   </p>
-            </ul>
-          </div>
+          
         </div>
+        <div >
+          <h1>Interests</h1>
+          <ul class="ul-interests">
+            <!-- <li><i class=" fa fa-hand-o-right"></i> -->
+               Computer Vision
+              <!-- </li> -->
+            <!-- <li><i class=" fa fa-hand-o-right"></i>  -->
+              , Computational Biology
+            <!-- </li> -->
+            <!-- <li><i class=" fa fa-hand-o-right"></i> -->
+              , Deep Learning
+            <!-- </li> -->
+            <!-- <li><i class=" fa fa-hand-o-right"></i> -->
+              , Hyperspectral Imaging
+            <!-- </li> -->
+            <!-- <li><i class=" fa fa-hand-o-right"></i> -->
+              , Image Processing
+            <!-- </li> -->
+            <!-- <li><i class=" fa fa-hand-o-right"></i> -->
+              , Texture Feature Description
+            <!-- </li> -->
+          </ul>
+        </div>
+
+        <div class="text-align-justify medium-font" itemprop="description">
+          <h1 id="biography">Biography</h1>
+          <p>
+             Swalpa Kumar Roy, (Bangla: স্বল্প কুমার রায়।) has been with the <a href="http://jgec.ac.in/" target="_blank">Jalpaiguri Government Engineering College, Jalpaiguri</a>, the 5<sup>th</sup> oldest technical institution and one of the most prestigious
+              academic institution in West Bengal where he is associated with the <a href="http://jgec.ac.in/" target="_blank">Department of Computer Science and Engineering</a> and holds the position of assistant professor from March 2018 onward.
+              <br>Swalpa Kumar Roy is also working with <a href="http://www.isical.ac.in/~chanda" target="_blank">Prof. Bhabatosh Chanda</a>, Fellow, IAPR and <a href="http://www.isical.ac.in/~bbc" target="_blank">Prof. Bidyut Baran Chaudhuri</a>,
+              Fellow, IEEE, <a href="http://www.isical.ac.in/~cvpr" target="_blank">Computer Vision and Pattern Recognition (CVPR) Unit</a> at Indian Statistical Institute, Kolkata during his Ph.D. research. He is also working under <a href="https://www3.iiserkol.ac.in/people/faculty				/dps/soumitro">Prof. Soumitro Banerjee</a>, Fellow, IEEE, at <a href="http://www.iiserkol.ac.in/" target="_blank">Indian Institute of 		      Science Education and Research, Kolkata</a>.<br>Before joining CVPR Unit, ISI Kolkata, he received his B. Tech (Computer Science &amp; 			Engineering) degree from <a href="http://www.wbut.ac.in/" target="_blank">West Bengal University of Technology, Kolkata</a>, and 
+  M. E (Computer Science &amp; Engineering) degree from the <a href="http://www.iiests.ac.in/" target="_blank">Indian Institute of Engineering Science and Technology, Shibpur</a>. He also worked as a Project-Linked-Person (PLP) at the OCR Lab, CVPR Unit,
+            Indian Statistical Institute, Kolkata.
+   </p>
+          </ul>
+        </div>
+
+
+
       </div>
       </div>
     </section>
-    <section id="col-3" class="home-section">
+    <section id="text-align-justify small-font" class="home-section" style="margin-left: 10px;">
       <div class="container">
         <div class="row">
-          <div class="col-sm-7">
-            <h3>Education</h3>
+          <div>
+            <h1>Education</h1>
             <ul class="ul-edu fa-ul">
 	      <li>
-                <i class="fa-li fa fa-graduation-cap"></i>
-                <div class="description">
+          <i class="fa-li fa fa-graduation-cap"></i>
+          <div class="description">
                   <p class="course">Ph.D (Computer Science & Engineering) degree from University of Calcutta, Kolkata but work carried out at CVPR Unit, Indian Statistical Institute, Kolkata.</p>
                   <p class="institution"></p>
                 </div>
@@ -193,8 +251,8 @@
                 </div>
               </li>
 	      <li>
-                <i class="fa-li fa fa-graduation-cap"></i>
-                <div class="description">
+          <i class="fa-li fa fa-graduation-cap"></i>
+          <div class="description">
                   <p class="course">B. Tech (Computer Science & Engineering) degree from West Bengal University of
                     Technology, Kolkata.</p>
                   <p class="institution"></p>
@@ -202,7 +260,7 @@
               </li>	    
             </ul>
           </div>
-          <div class="col-sm-5">
+          <!-- <div class="col-sm-5">
             <h3>Interests</h3>
             <ul class="ul-interests">
               <li><i class=" fa fa-hand-o-right"></i> Computer Vision</li>
@@ -212,7 +270,7 @@
               <li><i class=" fa fa-hand-o-right"></i> Image Processing</li>
               <li><i class=" fa fa-hand-o-right"></i> Texture Feature Description</li>
             </ul>
-          </div>
+          </div> -->
           <!-- <div class="col-sm-4">
             <h3>Reviewer</h3>
             <ul class="ul-reviewers">
@@ -261,13 +319,13 @@
     <section id="Note" class="home-section">
       <!-- <div class="container"  style="margin-top: -30px;"> -->
         <div class="container"  style="margin-top: -30px;">
-                    <h2><span class="text-success">Professional Service</span>
+                    <h2><span class="text-success"><strong>Professional Service</strong></span>
 				<!-- <sup>
                 <img style="display:inline" src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" />
 			  </sup> -->
       </h2>
       <!-- </div> -->
-		<div class="row">
+		<div class="row" style="margin-left: 10px;">
           <!-- <div class="col-xs-12 col-md-2 section-heading">
             <h1><span class="text-success">Note</span>
 				<sup>
@@ -275,7 +333,7 @@
 			  </sup>
 			</h1>
           </div> -->
-          <div class="col-xs-6 col-md-6">
+          <div class="w-100">
             <h3>Conference</h3>
             <ul class="ul-Note no-bullet-point">
 	      <li><i class=" fa fa-hand-o-right"></i> BMVC 2021.</li>
@@ -284,7 +342,7 @@
               <li><i class=" fa fa-hand-o-right"></i> IEEE Tencon 2018.</li>
             </ul>
           </div>
-          <div class="col-xs-6 col-md-6">
+          <div class="w-100">
             <h3>Journal</h3>
             <ul class="ul-Note no-bullet-point">
 	      <li><i class=" fa fa-hand-o-right"></i> IEEE Access.</li>        
@@ -296,21 +354,31 @@
 	      <li><i class=" fa fa-hand-o-right"></i> IEEE Transaction on Geoscience and Remote Sensing.</li>
             </ul>
           </div>
+          <div class="w-100">
+            <h3>Editorial Board Member</h3>
+            <ul class="ul-Note no-bullet-point">
+              <li><i class="fa fa-newspaper-o"></i>  <strong>Guest Editor</strong> of special issued journal of Deep Learning for Predictive Modeling in Large-Scale Systems in MDPI.</li>
+              <li><i class="fa fa-newspaper-o"></i>  <strong>Topic Editor</strong> of the journal of Advanced Machine Learning Techniques for Remote Sensing Intelligent Interpretation in Frontiers in Remote Sensing.</li>
+              <li><i class="fa fa-newspaper-o"></i>  <strong>Associate Editor</strong> of journal of Nature Computer Science (SNCS) Springer.</li>
+              <li><i class="fa fa-newspaper-o"></i>  <strong>Advisory Member</strong> in Amygdala AI an open non-profit platform for cutting
+              edge AI research to solve real-life computer vision challenges.</li>
+            </ul>
+          </div>
         </div>
 
       </div>
       <!-- </div> -->
     </section>
 
-    <section id="News" class="home-section">
+    <section id="Updates" class="home-section">
       <div class="container"  style="margin-top: -30px;">
-                <h2>News</h2>
+                <h2>Updates</h2>
         <div class="row">
           <!-- <div class="col-xs-12 col-md-2 section-heading">
-            <h1>News</h1>
+            <h1>Updates</h1>
           </div> -->
           <div class="col-xs-12 col-md-12">
-            <ul class="ul-News">
+            <ul class="ul-Updates">
 	      <li>
                 <span class="color-blue">[08/12/2022]</span><sup><img style="display:inline" 
 		      src="http://personal.strath.ac.uk/jinchang.ren/index_files/new.gif" alt="" /></sup> <span>Appointed as Associate Editor of Journal Springer Nature Computer Science (SNCS).</a><sup><font class=glow><b>NEW</b></font></sup></span>
@@ -458,7 +526,7 @@
     <section id="Contacts" class="home-section">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-3 section-heading" style="margin-top: 30px;">
+          <div class="col-12 col-lg-3 section-heading contact-section" style="margin-top: 30px;">
             <h1>Contact</h1>
           </div>
           <div class="col-12 col-lg-6 " style="margin-top: 30px;">
