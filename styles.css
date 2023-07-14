@@ -410,6 +410,7 @@
  }
  
  .glow{
+  color: #fd3d39;
   animation: blink 2s ease-in-out infinite;
 }
 @keyframes blink{
@@ -575,7 +576,7 @@
    gap: 0.5rem;
  }
  #profile .research-profiles button{
-   border: 1px solid #0095eb;
+   border: 1px solid #0095eb !important;
    height: 2.5rem;
    display: flex;
    align-items: center;
@@ -601,7 +602,7 @@
  /* ul.ul-interests li, */
  ul.ul-interests,
  ul.ul-reviewers li {
-   font-size: 1.2rem;
+   font-size: .9rem;
    padding-left: 0;
  }
  
