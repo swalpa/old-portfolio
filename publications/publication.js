@@ -1,21 +1,12 @@
 publications = {
     "arxiv": [{
-        "name": "Multimodal Fusion Transformer for Remote Sensing Image Classification.",
-        "paperLink": "https://arxiv.org/abs/2203.16952v1",
-        "author": "<strong>Swalpa Kumar Roy</strong>, Ankur Deria, Danfeng Hong, Behnood Rasti, Antonio Plazza, and Jocelyn Chanussot.",
-        "publisherName": "arXiv preprint arXiv:2203.16952, 2022.",
-        "arXivLink": "https://arxiv.org/abs/2203.16952v1",
-        "pdfLink": "https://arxiv.org/abs/2203.16952v1.pdf",
-        "codeLink": "https://github.com/AnkurDeria/MFT"
-    },
-    {
-        "name": "Deep Hyperspectral Unmixing using Transformer Network.",
-        "paperLink": "https://arxiv.org/abs/2203.17076v1",
-        "author": "Preetam Ghosh, <strong>Swalpa Kumar Roy</strong>, Bikram Koirala, Behnood Rasti, and Paul Scheunders.",
-        "publisherName": "arXiv preprint arXiv:2203.17076, 2022.",
-        "arXivLink": "https://arxiv.org/abs/2203.17076v1",
-        "pdfLink": "https://arxiv.org/abs/2203.17076v1.pdf",
-        "codeLink": "https://github.com/preetam22n/DeepTrans-HSU"
+        "name":"Neighborhood Attention Makes the Encoder of ResUNet Stronger for Accurate Road Extraction.",
+        "paperLink":"https://arxiv.org/abs/2306.04947",
+        "author":"Ali Jamali, <strong>Swalpa Kumar Roy</strong>, Jonathan Li, and Pedram Ghamisi.",
+        "publisherName":"arXiv preprint arXiv:2306.04947 (2023).",
+        "arXivLink":"https://arxiv.org/abs/2306.04947",
+        "pdfLink":"https://arxiv.org/abs/2306.04947.pdf",
+        "codeLink":""
     }, {
         "name": "AngularGrad: A New Optimization Technique for Angular Convergence of Convolutional Neural Networks.",
         "paperLink": "https://arxiv.org/abs/2105.10190v1",
@@ -44,62 +35,80 @@ publications = {
     ],
     "paper2023": [{
         "name": "Effective document image enhancement using tokens-to-token transformer network.",
-        "paperLink": "",
-        "author": "R. Biswas, <strong>Swalpa Kumar Roy</strong>, and Umapada Pal,",
+        "paperLink": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4354038",
+        "author": "Risab Biswas, <strong>Swalpa Kumar Roy</strong>, and Umapada Pal,",
         "publisherName": "SSRN 4354038, 2023.",
         "arXivLink": "",
-        "pdfLink": "",
+        "pdfLink": "https://deliverypdf.ssrn.com/delivery.php?ID=017096020116093001012028007027085098015051021063079059125002021095123122109008068127006055125009047120052119030113020102021069052085021064086101089094095097002094066057085035119015006085096002112116024095070009109076064071031122086120093085100070027117&EXT=pdf&INDEX=TRUE",
         "codeLink": ""
     }, {
         "name": "Local window attention transformer for polarimetric sar image classification.",
-        "paperLink": "",
-        "author": "A. Jamali, <strong>Swalpa Kumar Roy</strong>, A. Bhattacharya, and P. Ghamisi,",
+        "paperLink": "https://ieeexplore.ieee.org/document/10024822",
+        "author": "Ali Jamali, <strong>Swalpa Kumar Roy</strong>, Avik Bhattacharya, and Pedram Ghamisi,",
         "publisherName": "IEEE Geoscience and Remote Sensing Letters, 2023.",
         "arXivLink": "",
         "pdfLink": "",
         "codeLink": ""
     }, {
-        "name": "Wetmapformer: A unified deep cnn and vision transformer for complex wetland mapping.",
-        "paperLink": "",
-        "author": "A. Jamali, <strong>Swalpa Kumar Roy</strong>, and P. Ghamisi,",
+        "name": "WetMapFormer: A unified deep cnn and vision transformer for complex wetland mapping.",
+        "paperLink": "https://www.sciencedirect.com/science/article/pii/S1569843223001553",
+        "author": "Ali Jamali, <strong>Swalpa Kumar Roy</strong>, and Pedram Ghamisi,",
         "publisherName": "International Journal of Applied Earth Observation and Geoinformation, vol. 120, p. 103 333, 2023.",
         "arXivLink": "",
-        "pdfLink": "",
-        "codeLink": ""
+        "pdfLink": "https://pdf.sciencedirectassets.com/272637/1-s2.0-S1569843223X00041/1-s2.0-S1569843223001553/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDbFtmgwvj%2Fx9y9GNgIXQZ%2BLl7SsZHYnBk8psmhoLtkogIgRI7k7x9zeae%2BGROyh0oID9ke6Ud7W%2FYHK0z9W8nkom4qsgUIGxAFGgwwNTkwMDM1NDY4NjUiDNv5NJcYC5%2FcPblJMSqPBXM1o0fMaeLhLX2l3SV6ZKA8CTYi8GxAHReO022XYapyj3TrR9ejxqUpOdYfjJ%2BmS8aEHKBGSXQBwnDA8rzyU%2F8uA%2FWFBVkFRALKGwO6Rc%2FWkyY7bTq1kabgeu4PSh65XJXkSuuB7mEIlrw3Dz9M2UdfOd7MLf0fHc7e%2F7hbBEcXC4%2FfNNi2CxRIs7Z44XOB%2FZDyKSSkiw5tJNeTCxtf6omQ%2FtN6oWsBF9ooiQK8EtuTygVVuMpzOjmla9fdiUMneYXrCumahr0L7z78FNyHLwsM5k6QZ2CJouDv%2BHl8je%2F6rPFMgIWCzlSw4b8iheXCKzBXSBP5R8MygfFcIW0lRtDarmoc9YcMUsEnhPoz7UNaU%2BIzE0xU8XBdJgfXvDeK5p8ibjkhRcoAGFfhSDisVxkUDRli8JMS7oqpclQrcSvISypPsggGqVDjLF6WnNSqr0TR%2FLei0dE%2Bkqz7pn9up4NEMO3HUcjUu9AFkzJcghh0zDTysH3HwMOl264q2AwnReg9qSvvcTS9XPF1bXZL4bb2LE8pBs15DaKySaI%2Fctix4tPi89O%2FUq44u90gycmQ5w82riq8uT7YEExLPK3SIbCUmfTEYULclPLYBxHLj0rKD1UNYycscloLpSpbuxMD69OWwIdXgZPnKK3CgcOD9iWJwNDUe2x9UWFy6n0THBXX9IAPqKnpNmOBjLNJW4UfEM4%2FgQcV3CObcrzIwWhkvLiVsI7ug3LTU%2BBJC%2F1cXc1k8r3NWLeFyzl59pbs2o%2BSFA7pYy9jYRDi0h4ODV58iwef%2FPSucEX8SKp%2Bk8etFIgjOs1LB%2Fh0NNZgQ%2F9tnmSp9HJWn09Zghmw%2BoM3nx14WNnCXhBAdIT5y1BSW1lU6Xswh5jGpQY6sQEhgHmijmO%2FVFJ1EOadwj%2Bm36xflXAvhVE3zjVhMIdPYv7MjII2NwF4l4p2pFylhLNmc8U9zT7cjUm%2FuxU%2FIimDjSvLP15HnW55vi14BrbkCDS5IHWjnK9nTdqX48XQ5DsM3VR56skt%2BafH%2Fe4HkUEG5%2FhgeHw1wGqAfUKNIedg7SXJ7Q2wmTmox9W7VHGswauw9URLNG8GvDZIAaodXL4GW6%2FM25mYRDrbldgScM97YGc%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230714T184218Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYW3Q5JBF2%2F20230714%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9e31479ac8dd3bbe5bfc06aa649b4cbcf5416a511089d3925a2e72443079c5cd&hash=600a290edf5863813d794c7394c9bd17468a4de55783e4a931bd65331b7831d7&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1569843223001553&tid=spdf-2e02c408-6184-4e9e-9818-f732e818e516&sid=c88ea4d982fac246393a520141e91113baf9gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0c08520a520004520050&rr=7e6be7a29a0294c8&cc=in",
+        "codeLink": "https://github.com/aj1365/WetMapFormer"
     }, {
         "name": "Transu-net++: Rethinking attention gated transu-net for deforestation mapping.",
-        "paperLink": "",
-        "author": "A. Jamali, <strong>Swalpa Kumar Roy</strong>, J. Li, and P. Ghamisi,",
+        "paperLink": "https://www.sciencedirect.com/science/article/pii/S1569843223001541",
+        "author": "Ali Jamali, <strong>Swalpa Kumar Roy</strong>, Jonathan Li, and Pedram Ghamisi,",
         "publisherName": "International Journal of Applied Earth Observation and Geoinformation, vol. 120, p. 103 332, 2023.",
         "arXivLink": "",
-        "pdfLink": "",
-        "codeLink": ""
+        "pdfLink": "https://pdf.sciencedirectassets.com/272637/1-s2.0-S1569843223X00041/1-s2.0-S1569843223001541/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCIHDyxZZQHjPuC2Ziduva5GV1hp5ZWW8quyFR6Lgkj0gIhAJDgk7Z5wyBCoqdAfcB%2FLfSGuEeETappIovB7fXN0dTYKrIFCBMQBRoMMDU5MDAzNTQ2ODY1Igyt%2BwlnMRYFYZB0jjgqjwXYU0RqgsoXakeD%2Fe9oqyJydwZPbepBFMm9WiWCf8FrduR%2FEVLE%2BZek1aI333BYfUOr3Xy3izPtU0MFRCqLOR1IOG8dmKNjCm6YiZJlhIs1yjf14%2FEYIfgZsxyN4zUMfu3Ybc55uhXYMfnCqq8g%2B3wnDqPQlSA9OkrW89hNo5fAapScO%2FF7J3AAUt7d3JO4cOKUpGxp409v37b%2FQyy9YC29%2BsTv3mqDk%2FKigJs2UncrrghK5GMsljQ2D4dPp6CVdmiH2SMQ4aZ1at65tCHyLjZnEiHH7Oo9jaHcRX6e47FCCNa6QYgYrq2%2FEHA07OXp1UPS%2Bk5nz1dTzj7I0aJZ1OxPy3rTM79NuFP5RiApaQuCFswKtjvkjl3fqBs3Pj8itYxXiGK%2BhdosYj%2BOHGlZMHLRMi8ONgApU5sddAiM5d6vIW1seVpwk%2Bcso117CAjXaq2zWazpcJzYRzd5IigI1EPSMe%2BXGGaEkDXFJY%2FvwpNBcONnSKAhABoKvZiF8uul5IdD9pPX216D4XYCy7xsmuFbjnRE5tokz7VWP%2BsvwD84tFRNy6dpcSgWjZoK%2F6nHbR31%2F6DRzh%2FmBnYW6djHqJPI0%2B3xEmu%2FFOK3Q1IInrcJ%2FGJukofBg49OtbgnWQ%2BclL%2FtmBkAU9Ox3Da7fybSSEHD329c0nEK4iFr4VEyYp4m048R4ESANGHplrlHWxfA7E06%2FIUYx%2F4ijEYh%2FX86Zh2JVHUA08itSn%2BcTDAQVfjLvXnDkHPxdi4Ph%2BmrgQFrBy8Xl6RTplrnJqH9DbAp%2FQB0kj6RBcl0b9r3YWDoYLEezlIjh4Msc8bqIZQZ%2FT69vS%2FeNUZNQBjXpgW3%2FsQhMmKYwxEppkMcGL6OUpOJHur8MKS6xKUGOrABl1NhrW75lvK9lAv7qhj3KTrVW4XKiYdqzi6RX09k%2BcSROG8AOt1BVn5F7eqBTXIXuJZ2CveB1m7Nz9Iqsk6pH22e77R6RE4051aFMhu3QGdisAnRBEQXraYM5jVoFMrPof9o3Q9ay9FiLhFiT8mqzJdCuVDcFfsVgG7gCUxlzWWtgZyJNL%2FyOVbyZnFgrZL1%2FjHdhBrcbnmnVRTpGjRqIZs7SGt%2BmELH5hREsHzrUkY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230714T105825Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY5BMCOXH4%2F20230714%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=042404d0e81eda2684aaa02477bd050e13dc82867d60d78c4f6945738675949f&hash=d121613a9f87c82cb1d00af12bb8116dcc63a716e3a3a8811f4baaa11d0db03a&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1569843223001541&tid=spdf-6afe911e-b36b-4c86-ae8f-c3403029c220&sid=3f17ae842c5aa547fb084c78722a1e3c72d1gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0c08520a525b55555006&rr=7e69401d5d8a94b6&cc=in",
+        "codeLink": "https://github.com/aj1365/TransUNetplus2"
     }, {
-        "name": "Tattmsrecnet: Triplet-attention and multiscale reconstruction network for band selection in hyperspectral images.",
-        "paperLink": "",
-        "author": "U. Nandi, <strong>Swalpa Kumar Roy</strong>, D. Hong, X. Wu, and J. Chanussot.",
+        "name": "TAttMSRecNet: Triplet-attention and multiscale reconstruction network for band selection in hyperspectral images.",
+        "paperLink": "https://www.sciencedirect.com/science/article/abs/pii/S0957417422018152",
+        "author": "U. Nandi, <strong>Swalpa Kumar Roy</strong>, Danfeng Hong, Xin Wu, and Jocelyn Chanussot.",
         "publisherName": "Expert Systems with Applications, vol. 212, p. 118 797, 2023.",
         "arXivLink": "",
         "pdfLink": "",
         "codeLink": ""
-    }, {
-        "name": "Multimodal fusion transformer for remote sensing image classification.",
-        "paperLink": "",
-        "author": "<strong>Swalpa Kumar Roy</strong>, Ankur Deria, D. Hong, B. Rasti, A. Plaza, and J. Chanussot,",
-        "publisherName": "IEEE Transactions on Geoscience and Remote Sensing, 2023.",
-        "arXivLink": "",
-        "pdfLink": "",
-        "codeLink": ""
+    }, 
+    {
+    "name": "Multimodal Fusion Transformer for Remote Sensing Image Classification.",
+    "paperLink": "https://ieeexplore.ieee.org/abstract/document/10153685/",
+    "author": "<strong>Swalpa Kumar Roy</strong>, Ankur Deria, Danfeng Hong, Behnood Rasti, Antonio Plazza, and Jocelyn Chanussot.",
+    "publisherName": "arXiv preprint arXiv:2203.16952, 2022.",
+    "arXivLink": "https://arxiv.org/abs/2203.16952v1",
+    "pdfLink": "https://arxiv.org/abs/2203.16952v1.pdf",
+    "codeLink": "https://github.com/AnkurDeria/MFT"
     }, {
         "name": "Spectral-spatial morphological attention transformer for hyperspectral image classification.",
-        "paperLink": "",
-        "author": "<strong>Swalpa Kumar Roy</strong>, Ankur Deria, C. Shah, J. M. Haut, Q. Du, and A. Plaza,",
+        "paperLink": "https://ieeexplore.ieee.org/document/10036472",
+        "author": "<strong>Swalpa Kumar Roy</strong>, Ankur Deria, Chiranjibi Shah, Juan M. Haut, Qian Du, and Antonio Plaza,",
         "publisherName": "IEEE Transactions on Geoscience and Remote Sensing, 2023.",
         "arXivLink": "",
         "pdfLink": "",
         "codeLink": ""
-    },],
-    "paper2022": [{
+    },{
+        "name":"Rotation is All You Need: Cross Dimensional Residual Interaction for Hyperspectral Image Classification.",
+        "paperLink":"https://ieeexplore.ieee.org/abstract/document/10144635",
+        "author":"Xin Qiao, <strong>Swalpa Kumar Roy</strong>, and Weimin Huang.",
+        "publisherName":"IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2023).",
+        "arXivLink":"",
+        "pdfLink":"",
+        "codeLink":""
+    }],
+    "paper2022": [
+        {
+            "name": "Deep Hyperspectral Unmixing using Transformer Network.",
+            "paperLink": "https://arxiv.org/abs/2203.17076v1",
+            "author": "Preetam Ghosh, <strong>Swalpa Kumar Roy</strong>, Bikram Koirala, Behnood Rasti, and Paul Scheunders.",
+            "publisherName": "arXiv preprint arXiv:2203.17076, 2022.",
+            "arXivLink": "https://arxiv.org/abs/2203.17076v1",
+            "pdfLink": "https://arxiv.org/abs/2203.17076v1.pdf",
+            "codeLink": "https://github.com/preetam22n/DeepTrans-HSU"
+        },{
         "name": "Hyperspectral Image Classification--Traditional to Deep Models: A Survey for Future Prospects.",
         "paperLink": "https://ieeexplore.ieee.org/abstract/document/9645266",
         "author": " Muhammad Ahmad, Sidrah Shabbir, <strong>Swalpa Kumar Roy</strong>, Danfeng Hong, Xin Wu, Jing Yao, Adil Mehmood Khan, Manuel Mazzara, Salvatore Distefano, and Jocelyn Chanussot.",
