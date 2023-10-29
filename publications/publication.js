@@ -24,14 +24,6 @@ publications = {
         "pdfLink": "https://arxiv.org/abs/2105.10190v1.pdf",
         "codeLink": "https://github.com/mhaut/AngularGrad"
     },{
-        "name": "LiSHT: Non-Parametric Linearly Scaled Hyperbolic Tangent Activation Function for Neural Networks.",
-        "paperLink": "https://arxiv.org/abs/1901.05894",
-        "author": "<strong>Swalpa Kumar Roy</strong>, Suvojit Manna, Shiv Ram Dubey, and Bidyut B. Chaudhuri.",
-        "publisherName": "arXiv preprint arXiv:1901.05894, 2019.",
-        "arXivLink": "https://arxiv.org/abs/1901.05894",
-        "pdfLink": "https://arxiv.org/abs/1901.05894.pdf",
-        "codeLink": "https://github.com/swalpa/LiSHT"
-    }, {
         "name": "FWLBP: A Scale Invariant Descriptor for Texture Classification.",
         "paperLink": "https://digital-library.theiet.org/content/journals/iet-ipr",
         "author": "<strong>Swalpa Kumar Roy</strong>, Nilavra Bhattacharya, Bhabatosh Chanda, Bidyut B. Chaudhuri, Dipak Kumar Ghosh, and Dipak Kumar Ghosh.",
@@ -39,8 +31,7 @@ publications = {
         "arXivLink": "https://arxiv.org/pdf/1801.03228",
         "pdfLink": "https://arxiv.org/pdf/1801.03228.pdf",
         "codeLink": "https://github.com/swalpa/FWLBP"
-    },
-    ],
+    }],
     "paper2023": [{
         "name":"Multiscale Neighborhood Attention Transformer With Optimized Spatial Pattern for Hyperspectral Image Classification.",
         "paperLink":"https://ieeexplore.ieee.org/abstract/document/10248033",
@@ -123,15 +114,15 @@ publications = {
         "codeLink":""
     }],
     "paper2022": [
-        {
-            "name": "Deep Hyperspectral Unmixing using Transformer Network.",
-            "paperLink": "https://arxiv.org/abs/2203.17076v1",
-            "author": "Preetam Ghosh, <strong>Swalpa Kumar Roy</strong>, Bikram Koirala, Behnood Rasti, and Paul Scheunders.",
-            "publisherName": "arXiv preprint arXiv:2203.17076, 2022.",
-            "arXivLink": "https://arxiv.org/abs/2203.17076v1",
-            "pdfLink": "https://arxiv.org/abs/2203.17076v1.pdf",
-            "codeLink": "https://github.com/preetam22n/DeepTrans-HSU"
-        },{
+       {
+        "name": "Deep Hyperspectral Unmixing using Transformer Network.",
+        "paperLink": "https://arxiv.org/abs/2203.17076v1",
+        "author": "Preetam Ghosh, <strong>Swalpa Kumar Roy</strong>, Bikram Koirala, Behnood Rasti, and Paul Scheunders.",
+        "publisherName": "arXiv preprint arXiv:2203.17076, 2022.",
+        "arXivLink": "https://arxiv.org/abs/2203.17076v1",
+        "pdfLink": "https://arxiv.org/abs/2203.17076v1.pdf",
+        "codeLink": "https://github.com/preetam22n/DeepTrans-HSU"
+    },{
         "name": "Hyperspectral Image Classification--Traditional to Deep Models: A Survey for Future Prospects.",
         "paperLink": "https://ieeexplore.ieee.org/abstract/document/9645266",
         "author": " Muhammad Ahmad, Sidrah Shabbir, <strong>Swalpa Kumar Roy</strong>, Danfeng Hong, Xin Wu, Jing Yao, Adil Mehmood Khan, Manuel Mazzara, Salvatore Distefano, and Jocelyn Chanussot.",
@@ -139,7 +130,7 @@ publications = {
         "arXivLink": "https://arxiv.org/abs/2101.06116v2",
         "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9645266",
         "codeLink": "https://github.com/AnkurDeria/HSI-Traditional-to-Deep-Models"
-    }, {
+    },{
         "name": "Lightweight Heterogeneous Kernel Convolution for Hyperspectral Image Classification With Noisy Labels.",
         "paperLink": "https://ieeexplore.ieee.org/document/9552385",
         "author": "<strong>Swalpa Kumar Roy</strong>, Danfeng Hong, Purbayan Kar, Xin Wu, Xun Liu, and Di Zhao:.",
@@ -147,7 +138,7 @@ publications = {
         "arXivLink": "https://ieeexplore.ieee.org/document/9552385",
         "pdfLink": "https://ieeexplore.ieee.org/document/9552385",
         "codeLink": "https://github.com/AnkurDeria/HSI-Traditional-to-Deep-Models"
-    }, {
+    },{
         "name": "A Probabilistic Neighbourhood Pooling-Based Attention Network for Hyperspectral Image Classification.",
         "paperLink": "https://www.tandfonline.com/doi/abs/10.1080/2150704X.2021.1992034?journalCode=trsl20",
         "author": "Yuanlin Wang, Tiecheng Song, Yurui Xie, and <strong>Swalpa Kumar Roy</strong>.",
@@ -155,6 +146,14 @@ publications = {
         "arXivLink": "https://www.tandfonline.com/doi/abs/10.1080/2150704X.2021.1992034?journalCode=trsl20",
         "pdfLink": "https://www.tandfonline.com/doi/abs/10.1080/2150704X.2021.1992034?journalCode=trsl20",
         "codeLink": ""
+    },{
+        "name": "LiSHT: Non-Parametric Linearly Scaled Hyperbolic Tangent Activation Function for Neural Networks.",
+        "paperLink": "https://link.springer.com/chapter/10.1007/978-3-031-31407-0_35",
+        "author": "<strong>Swalpa Kumar Roy</strong>, Suvojit Manna, Shiv Ram Dubey, and Bidyut B. Chaudhuri.",
+        "publisherName": "Computer Vision and Image Processing (CVIP), vol. 1776, Springer, 2022.",
+        "arXivLink": "https://arxiv.org/abs/1901.05894",
+        "pdfLink": "https://arxiv.org/abs/1901.05894.pdf",
+        "codeLink": "https://github.com/swalpa/LiSHT"
     }],
     "paper2021": [{
         "name": "Revisiting Deep Hyperspectral Feature Extraction Networks via Gradient Centralized Convolution.",
